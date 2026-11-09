@@ -4,8 +4,8 @@ import Sidebar from "../components/layout/Sidebar.tsx";
 export default function Dashboard() {
     return(
         <main>
-            <Sidebar />
             <Header />
+            <Sidebar />
             <h1>Hello, Ocean</h1>
         </main>
     )
