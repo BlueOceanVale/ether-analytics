@@ -22,3 +22,13 @@ export const metrics = [
         description:"all great!"
     }
 ]
+
+export const visitorData = [
+    { day: "Mon", visitors: 120 },
+    { day: "Tue", visitors: 180 },
+    { day: "Wed", visitors: 150 },
+    { day: "Thu", visitors: 240 },
+    { day: "Fri", visitors: 200 },
+    { day: "Sat", visitors: 300 },
+    { day: "Sun", visitors: 260 },
+];
