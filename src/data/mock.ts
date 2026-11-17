@@ -34,8 +34,8 @@ export const visitorData = [
 ];
 
 export const trafficSources = [
-    { source: "Direct", visitors: 420 },
-    { source: "Search", visitors: 310 },
-    { source: "Social", visitors: 180 },
-    { source: "Referral", visitors: 90 },
-]
+    { source: "Direct", visitors: 420, fill: "#3b82f6" },
+    { source: "Search", visitors: 310, fill: "#22c55e" },
+    { source: "Social", visitors: 180, fill: "#f59e0b" },
+    { source: "Referral", visitors: 90, fill: "#a855f7" },
+];
