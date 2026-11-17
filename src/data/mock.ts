@@ -32,3 +32,10 @@ export const visitorData = [
     { day: "Sat", visitors: 300 },
     { day: "Sun", visitors: 260 },
 ];
+
+export const trafficSources = [
+    { source: "Direct", visitors: 420 },
+    { source: "Search", visitors: 310 },
+    { source: "Social", visitors: 180 },
+    { source: "Referral", visitors: 90 },
+]
