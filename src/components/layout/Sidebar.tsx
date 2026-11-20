@@ -1,6 +1,6 @@
 export default function Sidebar() {
     return (
-        <aside className="flex flex-col mr-0 p-2">
+        <aside className="hidden border-r shrink-0 w-56 flex-col mr-0 p-2 md:flex">
             <h1 className="font-bold text-2xl text-blue-700 mb-5">Ether Analytics</h1>
             <ul className="flex-1 flex flex-col gap-2">
                 <li>
