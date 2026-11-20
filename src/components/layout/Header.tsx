@@ -1,11 +1,8 @@
-import { useState } from "react"
-
 type HeaderProps = {
     onMenuClick: () => void;
 }
 
 export default function Header({ onMenuClick }: HeaderProps ) {
-    const [menuOpen, setMenuOpen] = useState(false);
 
     return (
         <header className="flex flex-row p-2 w-full">

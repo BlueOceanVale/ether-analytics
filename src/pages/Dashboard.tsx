@@ -10,10 +10,10 @@ export default function Dashboard() {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <main className="flex min-h-screen ">
-            <Sidebar />
+            <Sidebar isOpen={menuOpen}/>
 
             <div className="min-w-0 flex-1 bg-gray-100/60">
-                <Header onMenuClick={() => setMenuOpen(true)}/>
+                <Header onMenuClick={() => setMenuOpen(prev => !prev)}/>
 
                 <section className="grid grid-cols-1 gap-4 p-4 sm:grid-cols-2 xl:grid-cols-4">
                     {metrics.map((metric) => (

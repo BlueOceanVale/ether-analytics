@@ -1,6 +1,11 @@
-export default function Sidebar() {
+
+type SidebarProps = {
+    isOpen: boolean;
+};
+
+export default function Sidebar({isOpen}: SidebarProps) {
     return (
-        <aside className="hidden border-r shrink-0 w-56 flex-col mr-0 p-2 md:flex">
+        <aside className={`${isOpen ? "flex": "hidden"} border-r shrink-0 w-56 flex-col mr-0 p-2 md:flex`}>
             <h1 className="font-bold text-2xl text-blue-700 mb-5">Ether Analytics</h1>
             <ul className="flex-1 flex flex-col gap-2">
                 <li>
