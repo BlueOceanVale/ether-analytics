@@ -1,11 +1,13 @@
-import Header, from "../components/layout/Header.tsx";
+import Header from "../components/layout/Header.tsx";
 import Sidebar from "../components/layout/Sidebar.tsx";
 import Card from "../components/ui/MetricCard.tsx"; 
 import { metrics } from "../data/mock.ts"
 import VisitorChart from "../components/ui/VisitorChart.tsx";
 import TrafficSourcesChart from "../components/ui/TrafficSourcesChart.tsx";
+import { useState } from "react"
 
 export default function Dashboard() {
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
         <main className="flex min-h-screen ">
             <Sidebar />
