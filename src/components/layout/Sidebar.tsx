@@ -5,7 +5,7 @@ type SidebarProps = {
 
 export default function Sidebar({isOpen}: SidebarProps) {
     return (
-        <aside className={`fixed inset-y-0 left-0 z-40 flex w-56 shrink-0 flex-col border-r bg-white p-4 transition-transform duration-200 md:static md:translate-x-0 ${
+        <aside className={`fixed inset-y-0 left-0 z-40 flex w-56 shrink-0 flex-col shadow-[0px_2px_15px_rgba(0,0,0,0.08)] bg-white p-4 transition-transform duration-200 md:static md:translate-x-0 ${
     isOpen ? "translate-x-0" : "-translate-x-full"
 }`}>
             <h1 className="font-bold text-2xl text-blue-700 mb-5">Ether Analytics</h1>
