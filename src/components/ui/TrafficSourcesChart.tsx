@@ -10,7 +10,7 @@ import { trafficSources } from "../../data/mock";
 
 export default function TrafficSourcesChart() {
     return (
-        <div>
+        <div className="transition-all hover:scale-102">
             <ResponsiveContainer height={400} width="100%">
                 <PieChart >
                     <Pie 

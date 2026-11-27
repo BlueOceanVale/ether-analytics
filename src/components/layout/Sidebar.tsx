@@ -9,7 +9,7 @@ export default function Sidebar({isOpen}: SidebarProps) {
     isOpen ? "translate-x-0" : "-translate-x-full"
 }`}>
             <h1 className="font-bold text-2xl text-blue-700 mb-5">Ether Analytics</h1>
-            <ul className="flex-1 flex flex-col gap-2">
+            <ul className="flex-1 flex flex-col gap-4">
                 <li>
                     <a href="#">Overview</a>
                 </li>

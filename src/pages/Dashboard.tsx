@@ -19,10 +19,10 @@ export default function Dashboard() {
                     {metrics.map((metric) => (
                         <Card key={metric.title} {...metric} />
                     ))}
-                    <div className="col-span-full xl:col-span-3">
+                    <div className="col-span-full mt-8 xl:col-span-3">
                         <VisitorChart />
                     </div>
-                    <div className="col-span-full xl:col-span-1">
+                    <div className="col-span-full mt-8 xl:col-span-1">
                         <TrafficSourcesChart />
                     </div>
                 </section>
